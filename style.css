@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Itim', cursive;
+    width: 100%;
+    height: 100vh;
+    background: url("img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.row{
+    color: lightgray;
+    text-align: left;
+    display: flex;
+
+}
+.content{
+    display: flex;
+    align-items:start;
+    justify-content: space-around;
+
+}
+.alt{
+    margin:20px 10px 0 0;
+}
+.sag{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+
+}
+.sol{
+    width: 70%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    font-size:54px
+}
+.tarih1{
+    height: 50%;
+    font-size: 200px;
+    color: #ff6347;
+}
+.tarih2, .tarih3{
+    height: 25%;
+    font-size: 70px;
+    color: white;
+}
+.text{
+    
+    display: flex;
+    justify-content: center;
+}
+.row-top{
+    background-color: #363636;
+    padding: 5px;
+    color: #e8e8e8;
+    border-radius: 2px;
+}
+.row-bottom{
+    background-color: #4f4f4f;
+    padding: 5px;
+    color: #e8e8e8;
+    border-radius: 2px;
+}
+.menu{
+    width: 100%;
+    height: auto;
+}
+.menu ol{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ol li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu ol li a:hover{
+    color:red;
+}
+@media screen and (max-width:1000px) {
+
+
+    .row{
+        width: 90%;
+    }
+    .sag{
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+    
+    }
+    .sol{
+        width: 50%;
+        height: auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+        font-size:40px;
+    }
+    .tarih1{
+        height: 50%;
+        font-size: 150px;
+    }
+    .tarih2, .tarih3{
+        height: 25%;
+        font-size: 50px;
+    }
+
+    
+}
+@media screen and (max-width:850px) {
+
+
+    .row{
+        width: 100%;
+    }
+    .sag{
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+    
+    }
+    .sol{
+        width: 60%;
+        height: auto;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+        font-size:30px;
+    }
+    .tarih1{
+        height: 50%;
+        font-size: 130px;
+    }
+    .tarih2, .tarih3{
+        height: 25%;
+        font-size: 40px;
+    }
+
+    
+}
+@media screen and (max-width:660px){
+
+    .container{
+        width: 90%;
+        text-align: center;
+        color: white;
+        background-color: gray;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .content{
+        display: grid;
+        width: 100%;
+    }
+    .row1{
+        display: none;
+        display: grid;
+        order: 2;
+        width: 100%;
+        
+
+        
+    }
+    .row2{
+        display: flex;
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin:20px 0 20px 0;
+
+    }
+    .row3{
+        display: none;
+        display: grid;
+        order: 3;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        justify-items: normal;
+    }
+    .tarih2, .tarih3,.tarih1{
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        margin: 0 10px 0 0;
+    }
+    .text{
+        color: white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
